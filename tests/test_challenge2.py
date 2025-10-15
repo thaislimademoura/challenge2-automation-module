@@ -10,6 +10,13 @@ def test_challenge_2(driver):
     # Perform actions using page object methods
     homepage.click_show_popup()
     assert homepage.get_popup_title() == "Confirm"
+
+    homepage.click_accept()
+
+    homepage.click_notification_button()
+    homepage.click_allow_button()
     # homepage.get_popup_message()
     # homepage.accept_popup()
     # homepage.dismiss_popup()
+
+
