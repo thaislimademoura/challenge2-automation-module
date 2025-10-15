@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venvs/
+env/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# Test reports
+report.html
+report.json
+test_durations.log
+test_report.csv
+
+# VS Code settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Screenshots and test data
+screenshots/
+data/
+
+# Other
+*.log
+
+videos/
+*.png
